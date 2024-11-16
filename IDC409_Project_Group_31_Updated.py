@@ -64,7 +64,7 @@ def audio_to_text(file):
             try:
                 text = r.recognize_google(audio_data, language=DEFAULT_LANGUAGE)
                 all_.append(text)  # Append recognized text to the list
-                print("Lyrics/Spoken Text from Audio: ", text)
+                print("Speech/Spoken Text from Audio: ", text)
             except sr.UnknownValueError:
                 print("Sorry, I could not understand the audio.")
             except sr.RequestError as e:
