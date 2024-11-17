@@ -10,4 +10,5 @@ This repository contains a Jupyter notebook, titled S2T_Model.ipynb, written as 
 Discussion:
 The dataset consists of over 13100 (.wav) audio clips  which can be used to train the model. Due to time and computation restrictions, we were not able to train the model much. Training even one epoch, was approximated to be atleast 20+hours on Jupyter Notebook. Therefore, the dataset was restricted to only ~130 files for an epoch, which led to an untrained model, and inaccurate predictions. With more training, on larger datasets, it should be able to predict the text with a word error rate of less than 30%. 
 
+data_url = https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
 Google link of trained model - https://drive.google.com/drive/folders/1BuushBPBlmXWSanC2egCbpkZD9WSMbQt?usp=drive_link
